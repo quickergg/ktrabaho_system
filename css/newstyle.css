@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Center Card Layout */
+.manager-home {
+  background: #1c1c1e;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  width: 90%;
+  max-width: 600px;
+  padding: 30px;
+  margin: 20px auto;
+}
+
+/* Headers */
+h1,
+h2,
+h3 {
+  margin-bottom: 10px;
+  color: #76c776;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: left;
+}
+
+p {
+  color: #a0a0a0;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto 0;
+  padding: 12px 20px;
+  background: linear-gradient(to right, #76c776, #5cb75c);
+  color: #121212;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #5cb75c, #76c776);
+  box-shadow: 0 4px 15px rgba(118, 199, 118, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Form Container */
+.form-container {
+  width: 100%;
+  background: #1c1c1e;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  background: #2c2c2e;
+  border: none;
+  border-radius: 12px;
+  color: #f0f0f0;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(118, 199, 118, 0.7);
+  background: #3a3a3c;
+}
+
+/* Table Container */
+.table-container {
+  width: 100%;
+  background: #1c1c1e;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border-bottom: 1px solid #333;
+  padding: 12px 15px;
+  text-align: left;
+  color: #f0f0f0;
+}
+
+table th {
+  font-weight: bold;
+  background: #2c2c2e;
+  color: #76c776;
+  text-transform: uppercase;
+}
+
+table tr:hover {
+  background: #2c2c2e;
+}
+
+/* Headings for iOS-style section emphasis */
+.section-title {
+  font-size: 1.5em;
+  color: #76c776;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Subtle dividers for structure */
+.divider {
+  height: 1px;
+  background: #2c2c2e;
+  margin: 20px 0;
+  border: none;
+}
+
+/* Adjustments for consistent spacing */
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-btn {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto 0;
+  padding: 8px 15px;
+  background: linear-gradient(to right, #76c776, #5cb75c);
+  color: #121212;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
